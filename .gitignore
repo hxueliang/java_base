@@ -1,0 +1,65 @@
+# 编译输出
+target/
+build/
+out/
+bin/
+classes/
+*.class
+
+# Maven
+.gradle/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.settings/
+.project
+.c9launch
+.classpath
+.factorypath
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# 日志
+*.log
+logs/
+log/
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 包文件（按需放开，如果要提交jar注释掉）
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 本地配置
+application-local.yml
+application-local.properties
+*.env
+.env.local
+
+# Spring Boot 额外
+spring-boot-configuration-processor/
+
+# 数据库
+*.h2.db
+*.mv.db
