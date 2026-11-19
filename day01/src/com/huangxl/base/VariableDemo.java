@@ -1,4 +1,4 @@
-package com.huangxl;
+package com.huangxl.base;
 
 public class VariableDemo {
     /*
