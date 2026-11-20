@@ -13,7 +13,23 @@ public class D04While {
             count++;
             System.out.println("折第" + count + "次，当前纸的厚度为" + paper + "米");
         }
-        System.out.println("================");
+        System.out.println("========方式1：========");
+        System.out.println("折" + count + "次，最后一次纸的厚度为" + paper + "米");
+
+        fn2();
+    }
+
+    public static void fn2() {
+        int count = 0;
+        double paper = 0.1 / 1000; // 0.1毫米转为米
+        while (true) {
+            paper *= 2;
+            count++;
+            if (paper > 8848) {
+                break;
+            }
+        }
+        System.out.println("========方式2：死循环========");
         System.out.println("折" + count + "次，最后一次纸的厚度为" + paper + "米");
     }
 }
