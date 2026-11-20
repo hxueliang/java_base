@@ -1,6 +1,11 @@
-package com.huangxl.operator;
+package com.huangxl.b02operator;
 
-public class Demo2 {
+public class D02Increment {
+    /**
+     * 自增自减运算符
+     * ++
+     * --
+     */
     public static void main(String[] args) {
         int a = 10; // 9 10 11 12
         int b = a-- + ++a; // 10+10=20 19 18

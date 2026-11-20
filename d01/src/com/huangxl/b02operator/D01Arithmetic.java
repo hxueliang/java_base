@@ -1,6 +1,14 @@
-package com.huangxl.operator;
+package com.huangxl.b02operator;
 
-public class Demo1 {
+public class D01Arithmetic {
+    /**
+     * 算数运算符
+     * +
+     * -
+     * *
+     * /
+     * %
+     */
     public static void main(String[] args) {
         int a = 10;
         int b = 3;

@@ -1,6 +1,9 @@
-package com.huangxl.flowcontrol;
+package com.huangxl.b03flowcontrol;
 
-public class SwitchDemo {
+public class D02Switch {
+    /**
+     * switch
+     */
     public static void main(String[] args) {
         logDay(1);
         logDay(5);

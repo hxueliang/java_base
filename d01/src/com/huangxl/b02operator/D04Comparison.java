@@ -1,6 +1,15 @@
-package com.huangxl.operator;
+package com.huangxl.b02operator;
 
-public class Demo3 {
+public class D04Comparison {
+    /**
+     * 比较运算符
+     * >
+     * >=
+     * <
+     * <=
+     * ==
+     * !=
+     */
     public static void main(String[] args) {
         int a = 10; // 11 12 12
         int b = 20; // 20 20 20
