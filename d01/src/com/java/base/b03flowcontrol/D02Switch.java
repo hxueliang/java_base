@@ -1,4 +1,4 @@
-package com.huangxl.b03flowcontrol;
+package com.java.base.b03flowcontrol;
 
 public class D02Switch {
     /**

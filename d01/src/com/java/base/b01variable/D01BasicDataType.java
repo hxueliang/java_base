@@ -1,4 +1,4 @@
-package com.huangxl.b01variable;
+package com.java.base.b01variable;
 
 public class D01BasicDataType {
     /**
