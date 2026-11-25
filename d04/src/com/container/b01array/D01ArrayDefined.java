@@ -10,6 +10,10 @@ package com.container.b01array;
             区别：简写格式定义的时候就要赋值；完整格式可以先定义后赋值（场景：方法形参先定义了变量，实参必须用完整格式传入）
         动态初始化：已知长度不知元素
             数据类型[] 变量名 = new 数据类型[长度];
+    数组的注意事项：
+        1.数组一旦创建，长度不可改变
+        2.不能访问数组不存在的索引
+        3.所有的引用数据类型都可以使用null作用默认值，但是null是不能直接使用的，否则会报空指针异常
  */
 public class D01ArrayDefined {
     public static void main(String[] args) {
