@@ -1,4 +1,4 @@
-package com.object.abstraction;
+package com.object.b01abstract;
 
 public class D01C extends D01B {
     // 要么子类重写抽象方法

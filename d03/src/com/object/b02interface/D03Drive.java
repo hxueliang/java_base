@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 public interface D03Drive {
     void drive();

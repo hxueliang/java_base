@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 public interface D01B {
     // 接口的属性，默认被public static修饰

@@ -1,4 +1,4 @@
-package com.object.abstraction;
+package com.object.b01abstract;
 
 public class D03APayDemo {
     public static void main(String[] args) {

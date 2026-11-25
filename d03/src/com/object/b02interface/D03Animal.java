@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 public abstract class D03Animal {
     private String name;

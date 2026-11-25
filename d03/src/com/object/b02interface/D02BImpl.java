@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 public class D02BImpl implements D02B {
 

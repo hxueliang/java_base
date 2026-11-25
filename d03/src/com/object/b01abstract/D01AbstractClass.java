@@ -1,4 +1,4 @@
-package com.object.abstraction;
+package com.object.b01abstract;
 
 /*
     抽象类：public abstract class 类名{}

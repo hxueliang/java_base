@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 public class D03Man extends D03Animal implements D03Swim, D03Drive {
     public D03Man() {

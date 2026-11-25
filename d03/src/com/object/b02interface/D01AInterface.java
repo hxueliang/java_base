@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 /*
     jdk1.7及以前

@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 public class D03Sheep extends D03Animal {
     public D03Sheep() {

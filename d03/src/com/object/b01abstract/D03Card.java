@@ -1,4 +1,4 @@
-package com.object.abstraction;
+package com.object.b01abstract;
 
 /*
     属性：名字、余额

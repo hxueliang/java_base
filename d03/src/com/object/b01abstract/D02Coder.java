@@ -1,4 +1,4 @@
-package com.object.abstraction;
+package com.object.b01abstract;
 
 public class D02Coder extends D02Employee {
     public D02Coder() {

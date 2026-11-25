@@ -1,4 +1,4 @@
-package com.object.interfaces;
+package com.object.b02interface;
 
 /*
     接口的作用：

@@ -1,4 +1,4 @@
-package com.object.abstraction;
+package com.object.b01abstract;
 
 public class D02Manager extends D02Employee {
     private double bonus;
