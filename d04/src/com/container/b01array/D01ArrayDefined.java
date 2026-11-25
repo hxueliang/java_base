@@ -18,6 +18,9 @@ public class D01ArrayDefined {
 
         // showArr({1,2,3}); // 报错，简写格式定义的时候就要赋值
         showArr(new int[]{1, 2, 3}); // 完整格式可以先定义后赋值
+
+        // 动态初始化
+        int[] arr3 = new int[3];
     }
 
     public static void showArr(int[] arr) {
