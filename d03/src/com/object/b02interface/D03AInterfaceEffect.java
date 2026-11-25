@@ -37,5 +37,16 @@ public class D03AInterfaceEffect {
         man.eat();
         man.swim();
         man.drive();
+
+        System.out.print("\n");
+
+        System.out.println("============多态============");
+        swim(dog);
+        swim(frog);
+        swim(man);
+    }
+
+    public static void swim(D03Swim swim) {
+        swim.swim();
     }
 }
