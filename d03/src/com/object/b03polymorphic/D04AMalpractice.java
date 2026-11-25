@@ -8,6 +8,13 @@ package com.object.b03polymorphic;
         1. 向上转型：将子类转换为父类，(多态本质就是一种向上转型)
         2. 向下转型：将父类转换为子类，(父类"还原"成子类，一定是还原，否则会编译错误)
             格式：子类名 变量名 = (子类名) 父类变量名;
+            如何避免类转换异常：instanceof
+                总结：
+                    我们用多态要用多态的优点，不要用多态的弊端，
+                    本次多态里用到instanceof来避免类转换异常，到不如不使用多态，
+                    改为方法重载，每个方法里定义一个子类，这样就可以调用子类特有内容
+
+                    即：使用大家都有的功能用多态，使用大家没有的功能用方法重载
  */
 public class D04AMalpractice {
     public static void main(String[] args) {
@@ -18,11 +25,15 @@ public class D04AMalpractice {
          */
 
         method(new D04Dog("旺财", 2));
+        System.out.println("------");
+        method(new D04Cat("花花", 1)); // Cat cannot be converted to Dog
     }
 
     public static void method(D04Animal animal) {
         animal.eat();
-        D04Dog dog = (D04Dog) animal;
-        dog.swim();
+        if (animal instanceof D04Dog) {
+            D04Dog dog = (D04Dog) animal;
+            dog.swim();
+        }
     }
 }
